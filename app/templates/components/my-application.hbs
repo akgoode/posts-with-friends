@@ -21,12 +21,14 @@
   </div>
 </nav>
 
-<h1>Welcome to Ember!</h1>
+<h1>Posts With Friends</h1>
 
 {{#each flashMessages.queue as |flash|}}
   {{flash-message flash=flash}}
 {{/each}}
 
 <div class="col-md-8 col-md-offset-2">
+  {{#link-to "posts"}}Posts{{/link-to}}
+
   {{outlet}}
 </div>
