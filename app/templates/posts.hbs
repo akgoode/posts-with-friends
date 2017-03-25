@@ -1,1 +1,10 @@
 <h1>Stuff is working!</h1>
+<ul>
+{{#each model as |post|}}
+    <li>Stuff is happening!</li>
+    <li>{{post.title}}</li>
+    <li>{{post.content}}</li>
+{{/each}}
+</ul>
+{{#link-to "application"}}Back{{/link-to}}
+{{outlet}}
