@@ -1,0 +1,16 @@
+<form class="form-group" {{action 'createPost' post=model on='submit'}}>
+  <label>Title</label>
+  {{input
+    type="text"
+    class="form-control"
+    value=model.title
+  }}
+  <label>Content</label>
+  {{input
+    class="form-control"
+    value=model.content
+  }}
+  <button class='btn btn-xs btn-danger' type="submit">Submit</button>
+</form>
+
+{{outlet}}

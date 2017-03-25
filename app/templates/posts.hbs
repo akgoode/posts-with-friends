@@ -1,10 +1,11 @@
 <h1>Stuff is working!</h1>
-<ul>
+
 {{#each model as |post|}}
-    <li>Stuff is happening!</li>
+  <ul>
     <li>{{post.title}}</li>
     <li>{{post.content}}</li>
+  </ul>
 {{/each}}
-</ul>
-{{#link-to "application"}}Back{{/link-to}}
+{{#link-to "posts.new" class='btn btn-default btn-s'}}Create New Post{{/link-to}}
+{{#link-to "application" class='btn btn-default btn-s'}}Back{{/link-to}}
 {{outlet}}
