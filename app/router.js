@@ -1,6 +1,5 @@
 import Ember from 'ember';
 import config from './config/environment';
-import auth from './services/auth';
 
 const Router = Ember.Router.extend({
   location: config.locationType,
@@ -13,7 +12,9 @@ Router.map(function () {
   this.route('users');
   this.route('posts');
   this.route('new');
-  this.route('post', { path: '/posts/:post_id' });
+  this.route('post', { path: '/posts/:post_id' }, function() {
+    this.route('edit');
+  });
 });
 
 export default Router;
