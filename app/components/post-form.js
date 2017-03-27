@@ -5,5 +5,9 @@ export default Ember.Component.extend({
     save () {
       this.sendAction('save', this.get('post'));
     },
+    cancel () {
+      this.get('post').rollbackAttributes();
+      this.sendAction('cancel');
+    },
   }
 });
