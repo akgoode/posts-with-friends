@@ -7,7 +7,13 @@
 Posts with friends is the beginning of a full-stack social media app built with
 ember and ruby on rails.
 
-## ERD and User Stories
+## Links
+
+Deployed App: https://akgoode.github.io/posts-with-friends/
+Back-end repo: https://github.com/akgoode/posts-with-friends-api
+Deployed back-end: https://still-shelf-67479.herokuapp.com/
+
+## Wireframes and User Stories
 
 http://imgur.com/J1PhHgj
 
