@@ -1,6 +1,5 @@
 import Ember from 'ember';
 import config from './config/environment';
-import auth from './services/auth';
 
 const Router = Ember.Router.extend({
   location: config.locationType,
