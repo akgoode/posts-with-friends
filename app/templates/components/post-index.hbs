@@ -1,5 +1,6 @@
 <div class="post-index">
   {{#link-to 'post' post class="btn btn-default"}}{{post.title}}{{/link-to}}
   <button {{action 'deletePost'}} class='btn btn-danger'>Delete</button>
+  {{#link-to 'post.edit' post}}<button class='btn btn-warning'>Update</button>{{/link-to}}
   {{outlet}}
 </div>
