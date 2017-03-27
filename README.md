@@ -9,7 +9,7 @@ ember and ruby on rails.
 
 ## ERD and User Stories
 
-http://imgur.com/a/9WHq0
+http://imgur.com/J1PhHgj
 
 User Stories:
 - As a user, I want to have an account.
