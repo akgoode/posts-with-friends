@@ -1,10 +1,7 @@
 <h1>Stuff is working!</h1>
 
 {{#each model as |post|}}
-  <ul>
-    <li>{{post.title}}</li>
-    <li>{{post.content}}</li>
-  </ul>
+  {{#link-to 'post' post class="btn btn-default"}}{{post.title}}{{/link-to}}<br>
 {{/each}}
 {{#link-to "new" class='btn btn-default btn-s'}}Create New Post{{/link-to}}
 {{#link-to "application" class='btn btn-default btn-s'}}Back{{/link-to}}
