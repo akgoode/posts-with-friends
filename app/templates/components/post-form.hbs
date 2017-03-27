@@ -1,16 +1,13 @@
-<form class="form-group" {{action 'createPost' post=model on='submit'}}>
+<form class="form-group" {{action 'save' on='submit'}}>
   <label>Title</label>
   {{input
-    type="text"
+    value=post.title
     class="form-control"
-    value=model.title
   }}
   <label>Content</label>
   {{input
+    value=post.content
     class="form-control"
-    value=model.content
   }}
   <button class='btn btn-xs btn-danger' type="submit">Submit</button>
 </form>
-
-{{outlet}}
