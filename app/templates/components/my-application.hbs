@@ -6,6 +6,7 @@
       <ul class="nav navbar-nav">
         {{#if isAuthenticated}}
           <li>{{#link-to "new" class='btn btn-lg'}}<span class="label label-success">Create New Post</span>{{/link-to}}</li>
+          <li>{{#link-to "myposts" class='btn btn-lg'}}<span class="label label-info">My Posts</span>{{/link-to}}</li>
         {{/if}}
         <li>{{#link-to "posts" class='btn btn-lg'}}<span class="label label-warning">News Feed</span>{{/link-to}}</li>
       </ul>

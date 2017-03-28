@@ -1,0 +1,13 @@
+<div class="title-bar">
+  <h4>My Posts</h4>
+</div>
+<div class="post-index-wrapper">
+  {{#each model as |post|}}
+    {{#if post.editable}}
+      {{post-index post=post deletePost='deletePost'}}
+    {{/if}}
+  {{/each}}
+</div>
+<div>
+  {{#link-to "application" class='btn btn-default btn-s'}}Back{{/link-to}}
+</div>

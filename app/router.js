@@ -15,6 +15,7 @@ Router.map(function () {
   this.route('post', { path: '/posts/:post_id' });
   this.route('edit', { path: '/posts/:post_id/edit'});
   this.route('unauthorized');
+  this.route('myposts');
 });
 
 export default Router;
