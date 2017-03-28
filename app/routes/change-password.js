@@ -3,7 +3,13 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   auth: Ember.inject.service(),
   flashMessages: Ember.inject.service(),
+  isAuthenticated: Ember.computed.alias('auth.isAuthenticated'),
 
+  model () {
+    if(!this.get('isAuthenticated')){
+      this.transitionTo('unauthorized');
+    }
+  },
   actions: {
     changePassword (passwords) {
       this.get('auth').changePassword(passwords)

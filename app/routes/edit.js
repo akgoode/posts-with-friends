@@ -7,7 +7,7 @@ export default Ember.Route.extend({
     if(this.get('isAuthenticated')){
       return this.get('store').findRecord('post', params.post_id);
     } else {
-      this.transitionTo('index');
+      this.transitionTo('unauthorized');
     }
   },
   actions: {

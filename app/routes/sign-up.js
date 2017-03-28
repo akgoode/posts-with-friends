@@ -13,6 +13,7 @@ export default Ember.Route.extend({
         this.get('flashMessages')
         .success('Successfully signed-up! You have also been signed-in.');
       })
+      .then(() => this.transitionTo('posts'))
       .catch(() => {
         this.get('flashMessages')
         .danger('There was a problem. Please try again.');
