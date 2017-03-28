@@ -1,18 +1,19 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
 
-.post-index {
-  display: inline-block;
+.index-list {
+  text-align: center;
+  width: 50%;
+}
+
+.post-index-wrapper {
+  text-align: center;
 }
 
 .show-post {
   text-align: center;
 }
 
-.posts-table {
-  border: 1px solid black;
-}
-
-.posts-table tr {
-  border: 1px solid black;
+.post-pill {
+  margin: 10px;
 }

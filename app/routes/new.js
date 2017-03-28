@@ -5,7 +5,7 @@ export default Ember.Route.extend({
   isAuthenticated: Ember.computed.alias('auth.isAuthenticated'),
   model () {
     if(this.get('isAuthenticated')){
-      return this.get('store').createRecord('post', {});
+      return this.get('store').createRecord('post');
     } else {
       this.transitionTo('index');
     }
