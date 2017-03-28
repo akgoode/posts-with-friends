@@ -3,12 +3,17 @@
   {{input
     value=post.title
     class="form-control"
+    required="required"
   }}
-  <label>Content</label>
-  {{input
+  <br>
+  <label>Content</label><br>
+  {{textarea
     value=post.content
     class="form-control"
+    required="required"
+    rows=10
   }}
-  <button class='btn btn-s btn-danger' type="submit">Submit</button>
+  <br>
+  <button class='btn btn-s btn-success' type="submit">Submit</button>
   <button class='btn btn-s btn-danger' {{action 'cancel'}}>Cancel</button>
 </form>

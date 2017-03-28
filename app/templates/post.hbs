@@ -1,7 +1,7 @@
-<ul>
-  <li>{{model.title}}</li>
-  <li>{{model.content}}</li>
-</ul>
-{{#link-to "posts" class='btn btn-default btn-s'}}Back{{/link-to}}
+<div class="show-post">
+  <h3>{{model.title}}</h3>
+  <p>{{model.content}}</p>
+  {{#link-to "posts" class='btn btn-default btn-s'}}Back{{/link-to}}
+</div>
 
 {{outlet}}

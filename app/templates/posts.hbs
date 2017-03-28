@@ -1,9 +1,17 @@
-<h1>Stuff is working!</h1>
-
-{{#each model as |post|}}
-  {{post-index post=post deletePost='deletePost'}}
-{{/each}}
-
+<h4>News Feed</h4>
+<table class='posts-table'>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |post|}}
+      {{post-index post=post deletePost='deletePost'}}
+    {{/each}}
+  </tbody>
+</table>
 <div>
 {{#link-to "new" class='btn btn-default btn-s'}}Create New Post{{/link-to}}
 {{#link-to "application" class='btn btn-default btn-s'}}Back{{/link-to}}
