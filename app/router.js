@@ -12,9 +12,8 @@ Router.map(function () {
   this.route('users');
   this.route('posts');
   this.route('new');
-  this.route('post', { path: '/posts/:post_id' }, function() {
-    this.route('edit');
-  });
+  this.route('post', { path: '/posts/:post_id' });
+  this.route('edit', { path: '/posts/:post_id/edit'});
 });
 
 export default Router;

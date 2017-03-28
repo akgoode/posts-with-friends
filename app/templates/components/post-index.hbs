@@ -3,7 +3,7 @@
   <td class="post-index">
     {{#if post.editable}}
       <button {{action 'deletePost'}} class='btn btn-danger btn-xs'>Delete</button>
-      {{#link-to 'post.edit' post}}<button class='btn btn-warning btn-xs'>Update</button>{{/link-to}}
+      {{#link-to 'edit' post}}<button class='btn btn-warning btn-xs'>Update</button>{{/link-to}}
     {{/if}}
   </td>
 </tr>
