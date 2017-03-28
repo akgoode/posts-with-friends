@@ -1,7 +1,12 @@
 <div class="jumbotron reactive-margin">
   <h1>Welcome to Posts With Friends!</h1>
   <p>A social media startup that is in progress.</p>
-  {{#link-to 'sign-up' class="btn btn-primary btn-lg"}}Sign Up!{{/link-to}}
-  OR
-  {{#link-to 'sign-in' class="btn btn-info btn-lg"}}Sign In!{{/link-to}}
+  {{#if isAuthenticated}}
+    <p>Here is a link to our github repo!</p>
+    <a href="https://github.com/akgoode/posts-with-friends" class="btn btn-info btn-lg">Github</a>
+  {{else}}
+    {{#link-to 'sign-up' class="btn btn-primary btn-lg"}}Sign Up!{{/link-to}}
+    OR
+    {{#link-to 'sign-in' class="btn btn-info btn-lg"}}Sign In!{{/link-to}}
+  {{/if}}
 </div>
