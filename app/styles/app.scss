@@ -1,6 +1,10 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
 
+body {
+  padding-top: 70px;
+}
+
 .index-list {
   margin: 30px 10%;
   text-align: center;
@@ -24,6 +28,7 @@
 
 .post-content {
   margin: 25px 0;
+  white-space: pre-line;
 }
 
 .user-actions {

@@ -11,6 +11,7 @@ export default Ember.Component.extend({
 
     reset () {
       this.set('credentials', {});
+      history.back();
     },
   },
 });

@@ -1,21 +1,21 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     {{navbar-header}}
 
     <div class="collapse navbar-collapse" id="navigation">
       <ul class="nav navbar-nav">
         {{#if isAuthenticated}}
-          <li>{{#link-to "new" class='btn'}}Create New Post{{/link-to}}</li>
+          <li>{{#link-to "new" class='btn btn-lg'}}<span class="label label-success">Create New Post</span>{{/link-to}}</li>
         {{/if}}
-        <li>{{#link-to "posts" class='btn'}}Posts{{/link-to}}</li>
+        <li>{{#link-to "posts" class='btn btn-lg'}}<span class="label label-warning">News Feed</span>{{/link-to}}</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{#if isAuthenticated}}
-        <li>{{#link-to "change-password" class='btn'}}Change Password{{/link-to}}</li>
+        <li>{{#link-to "change-password" class='btn btn-lg'}}<span class="label label-info">Change Password</span>{{/link-to}}</li>
         <li><a href="#" {{action "signOut"}} class='btn'>Sign Out</a></li>
         {{else}}
-        <li>{{#link-to "sign-up"}}Sign Up{{/link-to}}</li>
-        <li>{{#link-to "sign-in"}}Sign In{{/link-to}}</li>
+        <li>{{#link-to "sign-up" class='btn btn-lg'}}<span class="label label-primary">Sign Up</span>{{/link-to}}</li>
+        <li>{{#link-to "sign-in" class='btn btn-lg'}}<span class="label label-info">Sign In</span>{{/link-to}}</li>
         {{/if}}
       </ul>
     </div>
