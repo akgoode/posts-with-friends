@@ -2,8 +2,8 @@
 @import 'bootstrap/theme';
 
 .index-list {
+  margin: 30px 10%;
   text-align: center;
-  width: 50%;
 }
 
 .post-index-wrapper {
@@ -15,5 +15,20 @@
 }
 
 .post-pill {
-  margin: 10px;
+  // margin: 10px 0;
+}
+
+.title-bar {
+  text-align: center;
+}
+
+.post-content {
+  margin: 25px 0;
+}
+
+.user-actions {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
 }
