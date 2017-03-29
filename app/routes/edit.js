@@ -4,8 +4,9 @@ export default Ember.Route.extend({
   auth: Ember.inject.service(),
   isAuthenticated: Ember.computed.alias('auth.isAuthenticated'),
   model (params) {
-    if(this.get('isAuthenticated')){
-      return this.get('store').findRecord('post', params.post_id);
+    let post = this.get('store').findRecord('post', params.post_id);
+    if(this.get('isAuthenticated') && post.get('editable')){
+      return post;
     } else {
       this.transitionTo('unauthorized');
     }

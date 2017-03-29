@@ -10,4 +10,9 @@ export default Ember.Route.extend({
       this.transitionTo('unauthorized');
     }
   },
+  actions: {
+    deletePost(post) {
+      post.destroyRecord();
+    },
+  }
 });
