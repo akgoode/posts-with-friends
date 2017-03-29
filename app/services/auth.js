@@ -15,10 +15,6 @@ export default Ember.Service.extend({
           password_confirmation: credentials.passwordConfirmation,
         },
       },
-    })
-    .then((data) => {
-      console.log(data);
-      return data;
     });
   },
 
