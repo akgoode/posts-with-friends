@@ -13,6 +13,7 @@ export default Ember.Component.extend({
 
     reset () {
       this.set('passwords', {});
+      history.back();
     },
   },
 });
