@@ -14,7 +14,7 @@
 
 Posts with friends is the beginning of a full-stack social media app built with ember and ruby on rails.
 
-<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/zvhns0uf5kgq/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5NlBFSFRGSlcxNVNEclJqYlJFelc5WnF3PT0&amp;landing_sign=CA9-tMGvpBJDMMHMKBshvuEWJ-mSLkYen_wVvURPmzg"></iframe>
+<a href="https://prezi.com/embed/zvhns0uf5kgq/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5NlBFSFRGSlcxNVNEclJqYlJFelc5WnF3PT0&amp;landing_sign=CA9-tMGvpBJDMMHMKBshvuEWJ-mSLkYen_wVvURPmzg">Prezi</a>
 
 #### Functionality
 
