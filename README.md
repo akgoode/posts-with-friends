@@ -14,6 +14,8 @@
 
 Posts with friends is the beginning of a full-stack social media app built with ember and ruby on rails.
 
+<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/zvhns0uf5kgq/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5NlBFSFRGSlcxNVNEclJqYlJFelc5WnF3PT0&amp;landing_sign=CA9-tMGvpBJDMMHMKBshvuEWJ-mSLkYen_wVvURPmzg"></iframe>
+
 #### Functionality
 
 Users create accounts and can then create posts which belong to those accounts.  They can view posts created by all users, but are limited to changing or deleting posts that they own.  The news feed button shows users all the posts created by all users, which is my prototype for a news feed that will show the activity of users that are followed by the signed-in user.  The myposts tab shows all of the current user's activity, which is the prototype for a user profile page.
