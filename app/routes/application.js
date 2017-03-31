@@ -23,6 +23,9 @@ export default Ember.Route.extend({
       let unauthorized = reason.errors && reason.errors.some((error) =>
         error.status === '401'
       );
+      let notCreated = reason.errors && reason.errors.some((error) =>
+        error.status === '404'
+      );
 
       if (unauthorized) {
         this.get('flashMessages')
@@ -31,6 +34,10 @@ export default Ember.Route.extend({
       } else {
         this.get('flashMessages')
         .danger('There was a problem. Please try again.');
+      }
+
+      if (notCreated) {
+        this.transitionTo('page-not-found');
       }
 
       return false;
