@@ -14,7 +14,7 @@ export default Ember.Route.extend({
   actions: {
     editPost (post) {
       post.save()
-      .then(() => this.transitionTo('posts'));
+      .then(() => history.back());
     },
     cancel () {
       history.back();
