@@ -10,6 +10,15 @@
 4.  Start the api with `bin/rails server`
 5.  Start the client with `ember server`
 
+## Links
+
+#### Deployed App:
+https://akgoode.github.io/posts-with-friends/
+#### Back-end repo:
+https://github.com/akgoode/posts-with-friends-api
+#### Deployed back-end:
+https://still-shelf-67479.herokuapp.com/
+
 ## Overview
 
 Posts with friends is the beginning of a full-stack social media app built with ember and ruby on rails.
@@ -23,6 +32,10 @@ Users create accounts and can then create posts which belong to those accounts. 
 #### Goals
 
 My personal goal for this project was to create a functional, visually appealing front-end in Ember.  Even though Ember was not a technical requirement, I approached this project as though it was because I was not interested in making an app that I had the technical skills to make six weeks ago.  To me, one of the most important abilities that I can highlight as a developer is that I can take new languages or frameworks and use them to quickly produce a functional app.  My timeline in WDI shows that 10 weeks ago I learned how to manipulate the DOM in JQuery, and today I have an app created using Ember.
+
+#### Planning and Scope
+
+When I began planning this project I scoped out what I thought would be produceable by 3/31.  I quickly realized that while this was not attainable in that amount of time, that I would use that model as a stretch goal.  As a result I descoped my project to a much simpler one.  My initial plan is one that I hope to be near to achieving by the meet and hire, and that the project that I will submit will be a stepping stone to my eventual goals.
 
 #### Challenges Faced
 
@@ -43,19 +56,6 @@ My other challenge was gaining confidence with Ember.  I left GA on Friday of Em
 ##### Back-end
 - Ruby on Rails
 - PSQL database
-
-## Links
-
-#### Deployed App:
-https://akgoode.github.io/posts-with-friends/
-#### Back-end repo:
-https://github.com/akgoode/posts-with-friends-api
-#### Deployed back-end:
-https://still-shelf-67479.herokuapp.com/
-
-## Planning and Scope
-
-When I began planning this project I scoped out what I thought would be produceable by 3/31.  I quickly realized that while this was not attainable in that amount of time, that I would use that model as a stretch goal.  As a result I descoped my project to a much simpler one.  My initial plan is one that I hope to be near to achieving by the meet and hire, and that the project that I will submit will be a stepping stone to my eventual goals.
 
 ## Wireframes and User Stories
 
