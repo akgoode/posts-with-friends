@@ -61,4 +61,4 @@ User Stories:
 - I want to be able to view all posts.
 - I want to be able to update MY posts.
 - I want to be able to delete MY posts.
-- I dont' want any routes to be accessible unless signed in.
+- I don't want any routes to be accessible unless signed in.
