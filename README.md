@@ -24,6 +24,12 @@ Users create accounts and can then create posts which belong to those accounts. 
 
 My personal goal for this project was to create a functional, visually appealing front-end in Ember.  Even though Ember was not a technical requirement, I approached this project as though it was because I was not interested in making an app that I had the technical skills to make six weeks ago.  To me, one of the most important abilities that I can highlight as a developer is that I can take new languages or frameworks and use them to quickly produce a functional app.  My timeline in WDI shows that 10 weeks ago I learned how to manipulate the DOM in JQuery, and today I have an app created using Ember.
 
+#### Challenges Faced
+
+The biggest challenge I faced with this project was scoping it properly.  To compensate for this, I made sure that I was going into the weekend before project week with working repos and deployed apps so that I could start work on my front end and comfortably deliver what I scoped.
+
+My other challenge was gaining confidence with Ember.  I left GA on Friday of Ember training week somewhat shaky about my abilities with Ember, but through work over the weekend and a more thorough understanding of routes and components on Monday I think my Ember skills have increased dramatically.
+
 ## Posts-With-Friends
 <img src="https://s3.amazonaws.com/akgoode/posts-with-friends.png">
 
